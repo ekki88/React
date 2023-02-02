@@ -1,11 +1,10 @@
 import './App.css';
-import AppCounter from "./components/counter/AppCounter";
-import AppXY from "./components/xy/AppXY";
+import AppMentor from './components/mentor/AppMentor';
 
 function App() {
   return (
     <div className="App">
-        <AppXY/>
+      <AppMentor/>
     </div>
   );
 }
